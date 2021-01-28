@@ -19,7 +19,7 @@ public class Main {
         System.out.println(Task8.calculateFunction(0));
         System.out.println(Task9.calculateCircle(3));
         Task10.calculateFunction(1, 3, 0.1);
-        System.out.println(Task5.isPerfect(29));
+        System.out.println(Task5.isPerfect(7));
 
         tests();
 
