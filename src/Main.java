@@ -1,5 +1,6 @@
 import work.task1.Task1;
 import work.task10.Task10;
+import work.task10.Xy;
 import work.task2.Task2;
 import work.task3.Task3;
 import work.task4.Task4;
@@ -7,6 +8,8 @@ import work.task5.Task5;
 import work.task7.Task7;
 import work.task8.Task8;
 import work.task9.Task9;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +21,11 @@ public class Main {
         System.out.println(Task7.pointNearZero(0, 3, 2, 3));
         System.out.println(Task8.calculateFunction(0));
         System.out.println(Task9.calculateCircle(3));
-        Task10.calculateFunction(1, 3, 0.1);
+        List<Xy> xyList = Task10.calculateFunction(1, 3, 0.1);
+        for (Xy item:xyList) {
+            System.out.println(item);
+        }
+//        Task10.calculateFunction(1, 3, 0.1);
         System.out.println(Task5.isPerfect(7));
 
         tests();
