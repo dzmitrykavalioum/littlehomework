@@ -1,4 +1,4 @@
-package task9;
+package com.dzmitrykavalioum.task9;
 ;
 
 public class Task9 {

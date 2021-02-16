@@ -1,4 +1,4 @@
-package task10;
+package com.dzmitrykavalioum.task10;
 
 import java.text.DecimalFormat;
 

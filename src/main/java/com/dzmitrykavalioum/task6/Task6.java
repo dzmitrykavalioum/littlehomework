@@ -1,4 +1,4 @@
-package task6;
+package com.dzmitrykavalioum.task6;
 
 public class Task6 {
     private static final int SECONDS_IN_HOUR = 3600;

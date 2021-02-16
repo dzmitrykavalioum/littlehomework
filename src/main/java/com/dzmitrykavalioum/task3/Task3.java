@@ -1,4 +1,4 @@
-package task3;
+package com.dzmitrykavalioum.task3;
 
 import static java.lang.Math.round;
 import static java.lang.Math.sqrt;

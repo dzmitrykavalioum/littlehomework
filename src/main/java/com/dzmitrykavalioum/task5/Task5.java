@@ -1,4 +1,4 @@
-package task5;
+package com.dzmitrykavalioum.task5;
 
 public class Task5 {
     public static boolean isPerfect(int number) {

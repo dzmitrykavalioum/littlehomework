@@ -1,4 +1,6 @@
-import task1.Task1;
+package com.dzmitrykavalioum;
+
+import com.dzmitrykavalioum.task1.Task1;
 
 public class App {
     public static void main(String[] args) {

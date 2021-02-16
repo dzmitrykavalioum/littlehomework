@@ -1,4 +1,4 @@
-package task8;
+package com.dzmitrykavalioum.task8;
 
 public class Task8 {
     public static double calculateFunction(double x) {

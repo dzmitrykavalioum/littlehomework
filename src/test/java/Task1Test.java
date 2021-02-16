@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import task1.Task1;
+import com.dzmitrykavalioum.task1.Task1;
 
 import java.util.Arrays;
 import java.util.Collection;

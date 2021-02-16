@@ -1,4 +1,4 @@
-package task2;
+package com.dzmitrykavalioum.task2;
 
 /*
 2.	Составить программу, которая по заданным году и номеру месяца определяет

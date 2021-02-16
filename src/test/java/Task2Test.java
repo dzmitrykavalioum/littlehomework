@@ -2,9 +2,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import task2.Task2;
+import com.dzmitrykavalioum.task2.Task2;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collection;
 
