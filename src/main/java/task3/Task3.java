@@ -1,4 +1,4 @@
-package work.task3;
+package task3;
 
 import static java.lang.Math.round;
 import static java.lang.Math.sqrt;

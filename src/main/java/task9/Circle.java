@@ -1,4 +1,4 @@
-package work.task9;
+package task9;
 
 public class Circle {
     private double length;

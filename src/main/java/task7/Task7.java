@@ -1,4 +1,4 @@
-package work.task7;
+package task7;
 
 public class Task7 {
     public static String pointNearZero(int x1, int y1, int x2, int y2) {

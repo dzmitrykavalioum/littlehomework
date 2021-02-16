@@ -1,4 +1,4 @@
-package work.task5;
+package task5;
 
 public class Task5 {
     public static boolean isPerfect(int number) {

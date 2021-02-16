@@ -1,4 +1,4 @@
-package work.task8;
+package task8;
 
 public class Task8 {
     public static double calculateFunction(double x) {

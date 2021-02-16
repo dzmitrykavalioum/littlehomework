@@ -1,4 +1,4 @@
-package work.task10;
+package task10;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
