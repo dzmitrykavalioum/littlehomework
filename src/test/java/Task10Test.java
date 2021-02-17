@@ -15,19 +15,9 @@ import java.util.List;
 @RunWith(value = Parameterized.class)
 public class Task10Test {
 
-    //private static Object list;
+    private static final double PRECISION = 0.001;
     private double a, b, h;
     private List<Xy> expectedList;
-    //private static List<Xy> list = new ArrayList<Xy>();
-
-//    @Before
-//    public void initList() {
-//        list = new ArrayList<Xy>();
-//        for (double i = 0; i <= 2; i += 0.1) {
-//            list.add(new Xy(i, Math.tan(i)));
-//        }
-//    }
-
 
     @Parameterized.Parameters
     public static Collection<Object[]> calculateTableTan() {
@@ -50,13 +40,14 @@ public class Task10Test {
 
     @Test
     public void calculateTest() {
+
         List<Xy> actualList;
         actualList = Task10.calculateFunction(a, b, h);
 
         Assert.assertEquals(expectedList.size(), actualList.size());
         for (int i = 0; i < actualList.size(); i++) {
-            Assert.assertEquals(expectedList.get(i).getX(), actualList.get(i).getX(), 0.001);
-            Assert.assertEquals(expectedList.get(i).getY(), actualList.get(i).getY(), 0.001);
+            Assert.assertEquals(expectedList.get(i).getX(), actualList.get(i).getX(), PRECISION);
+            Assert.assertEquals(expectedList.get(i).getY(), actualList.get(i).getY(), PRECISION);
         }
     }
 }
