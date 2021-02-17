@@ -32,8 +32,9 @@ public class Xy {
     @Override
     public String toString() {
 
+
         String formatted;
         formatted = new DecimalFormat(FORMAT).format(x);
-        return formatted + "\t" + y;
+        return "{" + formatted + "," + y + "},";
     }
 }
