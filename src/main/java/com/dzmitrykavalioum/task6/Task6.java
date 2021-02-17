@@ -13,6 +13,9 @@ public class Task6 {
     }
 
     public static int getSeconds(int seconds) {
+        if (seconds==0){
+            return 0;
+        }
         return seconds % SECONDS_IN_MINUTE - 1;
     }
 
