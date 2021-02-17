@@ -12,12 +12,10 @@ public class Task4 {
             if (numbers[i] % 2 == 0) {
                 count++;
                 if (count == 2) {
-                    System.out.println(true);
                     return true;
                 }
             }
         }
-        System.out.println(false);
         return false;
     }
 }

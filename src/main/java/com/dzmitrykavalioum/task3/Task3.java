@@ -11,7 +11,7 @@ import static java.lang.Math.sqrt;
 public class Task3 {
     public static double squareArea(double square) {
         double askingArea = 0;
-        long qty; //(bigger square)/(smaller square)
+        double qty; //(bigger square)/(smaller square)
         double a; //side of bigger square
         double b; //side of smaller square
         a = sqrt(square);
